@@ -5,8 +5,7 @@
 replicaCount: 3
 
 image:
-  
-  repository: somedomain/some-repo/devops-bookstore-api
+  repository: eu.gcr.io/terraform-demo-376213/devops-bookstore-api
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
